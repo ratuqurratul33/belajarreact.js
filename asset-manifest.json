@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/BelajarReact.js/static/css/main.3fe572f5.css",
-    "main.js": "/BelajarReact.js/static/js/main.32f46d5e.js",
-    "index.html": "/BelajarReact.js/index.html",
-    "main.3fe572f5.css.map": "/BelajarReact.js/static/css/main.3fe572f5.css.map",
-    "main.32f46d5e.js.map": "/BelajarReact.js/static/js/main.32f46d5e.js.map"
+    "main.css": "/belajarreact.js/static/css/main.3fe572f5.css",
+    "main.js": "/belajarreact.js/static/js/main.32f46d5e.js",
+    "index.html": "/belajarreact.js/index.html",
+    "main.3fe572f5.css.map": "/belajarreact.js/static/css/main.3fe572f5.css.map",
+    "main.32f46d5e.js.map": "/belajarreact.js/static/js/main.32f46d5e.js.map"
   },
   "entrypoints": [
     "static/css/main.3fe572f5.css",

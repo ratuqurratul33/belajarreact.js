@@ -1,38 +1,87 @@
-.App {
+body {
+  background: linear-gradient(180deg, #fff6f1, #fde2e4);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #5e3b3b;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.judul {
   text-align: center;
+  color: #e5738a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-produk {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.form-produk input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #f7b8c4;
+}
+
+.form-produk button {
+  background: #f7b8c4;
+  color: #5e3b3b;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-produk button:hover {
+  background: #e5738a;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list-produk {
+  margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-produk ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-produk li {
+  background: #fff0f3;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.hapus {
+  background: #ff6666;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+button.hapus:hover {
+  background: #e04d4d;
+}
+
+.kosong {
+  text-align: center;
+  color: gray;
 }

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BelajarReact.Js/static/css/main.3fe572f5.css",
+    "main.js": "/BelajarReact.Js/static/js/main.32f46d5e.js",
+    "index.html": "/BelajarReact.Js/index.html",
+    "main.3fe572f5.css.map": "/BelajarReact.Js/static/css/main.3fe572f5.css.map",
+    "main.32f46d5e.js.map": "/BelajarReact.Js/static/js/main.32f46d5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fe572f5.css",
+    "static/js/main.32f46d5e.js"
+  ]
+}
